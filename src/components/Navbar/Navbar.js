@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
@@ -14,10 +15,10 @@ const Navbar = () => {
                 <span/>
             </Hamburger>
             <Menu isOpen={isOpen}>
-                <Link href="">Champions</Link>
-                <Link href="">Meta Comps</Link>
-                <Link href="">Items</Link>
-                <Link href="">Contact</Link>
+                <SubMenu href="">Champions</SubMenu>
+                <SubMenu href="">Meta Comps</SubMenu>
+                <SubMenu href="">Items</SubMenu>
+                <SubMenu href="">Contact</SubMenu>
             </Menu>
         </Nav>
     );
@@ -65,7 +66,7 @@ const Menu = styled.div`
     width: 100%;
   }
 `;
-const Link = styled.a`
+const SubMenu = styled.a`
   padding: 1rem 2rem;
   cursor: pointer;
   text-align: center;
