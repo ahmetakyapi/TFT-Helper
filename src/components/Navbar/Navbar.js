@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <Nav>
-            <Logo href="">
+            <Logo href="/">
                 TFT<span>Helper</span>
             </Logo>
             <Hamburger onClick={() => setIsOpen(!isOpen)}>
@@ -15,10 +14,9 @@ const Navbar = () => {
                 <span/>
             </Hamburger>
             <Menu isOpen={isOpen}>
-                <SubMenu href="">Champions</SubMenu>
-                <SubMenu href="">Meta Comps</SubMenu>
-                <SubMenu href="">Items</SubMenu>
-                <SubMenu href="">Contact</SubMenu>
+                <SubMenu href="/Champions">Champions</SubMenu>
+                <SubMenu href="/MetaComps">Meta Comps</SubMenu>
+                <SubMenu href="/Items">Items</SubMenu>
             </Menu>
         </Nav>
     );
