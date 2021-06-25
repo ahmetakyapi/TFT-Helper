@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
 import {BrowserRouter as Router, Switch, Route,} from "react-router-dom";
+import styled from "styled-components";
 import Champions from "./components/Champions/Champions";
 import MetaComps from "./components/MetaComps/MetaComps";
 import Items from "./components/Items/Items";
 import Home from "./components/Home/Home";
-import styled from "styled-components";
 
 class App extends Component {
     render() {
@@ -28,6 +28,11 @@ class App extends Component {
 const Container = styled.div `
      background: #13334C;
      height: 100vh;
+  @media (max-width: 768px) {
+     background: #13334C;
+    height: 142vh;
+    width: 46vh;
+  }
 `
 export default App
 

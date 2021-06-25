@@ -35,6 +35,11 @@ const Nav = styled.div`
   top: 0;
   left: 0;
   right: 0;
+  div {
+    font-size: 12px;
+    color: darkgoldenrod;
+    font-weight: 800;
+  }
 `;
 
 const Logo = styled.a`
