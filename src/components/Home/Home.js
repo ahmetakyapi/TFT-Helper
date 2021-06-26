@@ -44,9 +44,9 @@ const Logo = styled.div `
     padding-top: 2rem;
     padding-left: 60rem;
   @media (max-width: 768px) {
-    width: 18vh;
+    width: 20vh;
     padding-top: 2rem;
-    padding-left: 7rem;
+    padding-left: 7.5rem;
   }
 `
 
@@ -59,8 +59,9 @@ const MainPage = styled.div `
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    width: 45vh;
+    width: 50vh;
     padding-top: 2rem;
+    padding-left: 1.2rem;
   }
 `
  const Text = styled.div `
@@ -97,28 +98,31 @@ const MainPage = styled.div `
    @media (max-width: 768px) {
      h1 {
        color: antiquewhite;
-       font-size: 24px;
+       font-size: 28px;
        text-align: center;
        padding-left: 1rem;
        padding-top: 2rem;
      }
      h2 {
        color: mediumaquamarine;
-       font-size: 18px;
+       font-size: 20px;
        text-align: center;
        padding-left: 1rem;
        margin-top: 2rem;
      }
      h3 {
        color: whitesmoke;
-       font-size: 16px;
+       font-size: 18px;
        text-align: center;
        margin-left: 1rem;
        margin-top: 3rem;
        margin-bottom: 2rem;
      }
      span {
-       padding: 3.8rem;
+       display: flex;
+       flex-direction: column;
+       width: 9rem;
+       padding-left: 7rem;
      }
    }
  `
