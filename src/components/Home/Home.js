@@ -54,12 +54,21 @@ const MainPage = styled.div `
   padding-top: 3rem;
   padding-right: 5px;
   display: flex;
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    width: 52vh;
+    width: 380px;
     padding-top: 2rem;
     padding-left: 0.6rem;
+    .responsive {
+    width: 70%;
+    height: auto;
+  }
+
   }
 `
  const Text = styled.div `
