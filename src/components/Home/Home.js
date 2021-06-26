@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "../Navbar/Navbar";
 import penguin from "../../assets/Pengu.png"
-import Traits from "../../assets/Traits.jpg"
+import Reckoning from "../../assets/Reckoning.jpg"
 import TftLogo from "../../assets/TFT-Logo.png"
 function Home() {
     return (
@@ -12,7 +12,7 @@ function Home() {
                 <img src={TftLogo} alt="traits img"/>
             </Logo>
          <MainPage>
-             <img src={Traits} alt="traits img"/>
+             <img src={Reckoning} alt="reckoning img"/>
              <Text>
                  <div>
                      <h1>TFT Guide Site, Developed To Help Users in TFT Game</h1>
@@ -40,19 +40,16 @@ const Container = styled.div `
 const Logo = styled.div `
     display: inline-flex;
     flex-direction: column;
-    width: 24vh;
+    width: 26vh;
     padding-top: 2rem;
     padding-left: 62rem;
   @media (max-width: 768px) {
-   /* width: 20vh;
-    padding-top: 2rem;
-    padding-left: 7.5rem; */
     display: none;
   }
 `
 
 const MainPage = styled.div `
-  height:70vh;
+  height:60vh;
   width: 180vh;
   padding-top: 3rem;
   padding-right: 5px;
@@ -60,7 +57,7 @@ const MainPage = styled.div `
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    width: 52 vh;
+    width: 52vh;
     padding-top: 2rem;
     padding-left: 0.6rem;
   }
@@ -94,7 +91,10 @@ const MainPage = styled.div `
     font-size: 20px;
   }
    span {
-     padding-left: 22rem;
+    display: flex;
+       flex-direction: column;
+       width: 10rem;
+       padding-left: 30rem;
    }
    @media (max-width: 768px) {
      h1 {
