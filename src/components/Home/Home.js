@@ -40,13 +40,14 @@ const Container = styled.div `
 const Logo = styled.div `
     display: inline-flex;
     flex-direction: column;
-    width: 32vh;
+    width: 24vh;
     padding-top: 2rem;
-    padding-left: 60rem;
+    padding-left: 62rem;
   @media (max-width: 768px) {
-    width: 20vh;
+   /* width: 20vh;
     padding-top: 2rem;
-    padding-left: 7.5rem;
+    padding-left: 7.5rem; */
+    display: none;
   }
 `
 
@@ -59,9 +60,9 @@ const MainPage = styled.div `
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    width: 50vh;
+    width: 52 vh;
     padding-top: 2rem;
-    padding-left: 1.2rem;
+    padding-left: 0.6rem;
   }
 `
  const Text = styled.div `
@@ -121,8 +122,8 @@ const MainPage = styled.div `
      span {
        display: flex;
        flex-direction: column;
-       width: 9rem;
-       padding-left: 7rem;
+       width: 8rem;
+       padding-left: 8rem;
      }
    }
  `

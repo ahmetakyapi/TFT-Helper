@@ -30,7 +30,7 @@ const Container = styled.div `
      height: 100vh;
   @media (max-width: 768px) {
      background: #13334C;
-    height: 140vh;
+    height: 124vh;
     width: 56vh;
   }
 `
