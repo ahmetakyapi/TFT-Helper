@@ -49,24 +49,24 @@ const Logo = styled.div `
 `
 
 const MainPage = styled.div `
+  img {
   height:60vh;
   width: 180vh;
+  }
   padding-top: 3rem;
   padding-right: 5px;
   display: flex;
-  .responsive {
-    width: 100%;
-    height: auto;
-  }
+
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     width: 380px;
     padding-top: 2rem;
     padding-left: 0.6rem;
-    .responsive {
-    width: 70%;
+     img {
+    max-width:320px;
     height: auto;
+    padding-left: 2rem;
   }
 
   }
@@ -102,7 +102,7 @@ const MainPage = styled.div `
    span {
     display: flex;
        flex-direction: column;
-       width: 10rem;
+       width: 4rem;
        padding-left: 30rem;
    }
    @media (max-width: 768px) {
@@ -129,10 +129,10 @@ const MainPage = styled.div `
        margin-bottom: 2rem;
      }
      span {
-       display: flex;
-       flex-direction: column;
+      padding-left: 6rem;
+       img {
        width: 8rem;
-       padding-left: 8rem;
+       }
      }
    }
  `
