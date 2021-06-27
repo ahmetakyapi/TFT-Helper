@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Ziggs1",
+        "costs": "1",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    },
+    {
+        "id": 2,
+        "title": "Ziggs2",
+        "costs": "1",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    },
+    {
+        "id": 3,
+        "title": "Ziggs3",
+        "costs": "1",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    },
+    {
+        "id": 4,
+        "title": "Ziggs4",
+        "costs": "1",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    },
+    {
+        "id": 5,
+        "title": "Ziggs5",
+        "costs": "1",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    },
+    {
+        "id": 6,
+        "title": "Ziggs6",
+        "costs": "1",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    },
+    {
+        "id": 5,
+        "title": "Ziggs5",
+        "costs": "1",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    },
+    {
+        "id": 5,
+        "title": "Ziggs5",
+        "costs": "1",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    },
+    {
+        "id": 5,
+        "title": "Ziggs5",
+        "costs": "1",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    }
+]
