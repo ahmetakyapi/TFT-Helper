@@ -2,17 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "../Navbar/Navbar";
 import penguin from "../../assets/Pengu.png"
-import Reckoning from "../../assets/Reckoning.jpg"
 import TftLogo from "../../assets/TFT-Logo.png"
+import Traits from "../../assets/Traits.jpg"
 function Home() {
     return (
         <Container>
             <Navbar/>
             <Logo>
-                <img src={TftLogo} alt="traits img"/>
+                <img src={TftLogo} alt="Tft-logo img"/>
             </Logo>
          <MainPage>
-             <img src={Reckoning} alt="reckoning img"/>
+             <img src={Traits} alt="Traits img"/>
              <Text>
                  <div>
                      <h1>TFT Guide Site, Developed To Help Users in TFT Game</h1>
@@ -44,7 +44,16 @@ const Logo = styled.div `
     padding-top: 2rem;
     padding-left: 62rem;
   @media (max-width: 768px) {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    img {
+      max-width: 140px;
+      height: auto;
+      padding-left: 5rem;
+    }
   }
 `
 
@@ -54,7 +63,7 @@ const MainPage = styled.div `
   width: 180vh;
   }
   padding-top: 3rem;
-  padding-right: 5px;
+  padding-right: 2px;
   display: flex;
 
   @media (max-width: 768px) {
@@ -64,9 +73,9 @@ const MainPage = styled.div `
     padding-top: 2rem;
     padding-left: 0.6rem;
      img {
-    max-width:320px;
+    max-width:360px;
     height: auto;
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 
   }
@@ -97,13 +106,14 @@ const MainPage = styled.div `
   div>h1 {
     color: darkgoldenrod;
     padding-right: 1rem;
-    font-size: 20px;
+    font-size: 24px;
   }
    span {
-    display: flex;
-       flex-direction: column;
-       width: 4rem;
-       padding-left: 30rem;
+     padding-left: 28rem;
+    img {
+      width: 14rem;
+      height: auto;
+    }
    }
    @media (max-width: 768px) {
      h1 {
