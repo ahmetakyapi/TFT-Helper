@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Aphelios",
+    "traits1": "Nightbringer",
+    "traits2": "Ranger",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/aphelios.png"
+  },
+  {
+    "id": 2,
+    "title": "Diana",
+    "traits1": "Nightbringer",
+    "traits2": "Assassin",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/diana.png"
+  },
+  {
+    "id": 3,
+    "title": "Draven",
+    "traits1": "Forgotten",
+    "traits2": "Legionnaire",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/draven.png"
+  },
+  {
+    "id": 4,
+    "title": "Ivern",
+    "traits1": "Revenant",
+    "traits2": "Invoker",
+    "traits3": "Renewer",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ivern.png"
+  },
+  {
+    "id": 5,
+    "title": "Jax",
+    "traits1": "Ironclad",
+    "traits2": "Skirmisher",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/jax.png"
+  },
+  {
+    "id": 6,
+    "title": "Karma",
+    "traits1": "Dawnbringer",
+    "traits2": "Invoker",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/karma.png"
+  },
+  {
+    "id": 7,
+    "title": "Mordekaiser",
+    "traits1": "Dragonslayer",
+    "traits2": "Legionnaire",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/mordekaiser.png"
+  },
+  {
+    "id": 8,
+    "title": "Rell",
+    "traits1": "Redeemed",
+    "traits2": "Ironclad",
+    "traits3": "Cavalier",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/rell.png"
+  },
+  {
+    "id": 9,
+    "title": "Ryze",
+    "traits1": "Forgotten",
+    "traits2": "Abomination",
+    "traits3": "Mystic",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ryze.png"
+  },
+  {
+    "id": 10,
+    "title": "Taric",
+    "traits1": "Verdant",
+    "traits2": "Knight",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/taric.png"
+  },
+  {
+    "id": 11,
+    "title": "Velkoz",
+    "traits1": "Redeemed",
+    "traits2": "Spellweaver",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/velkoz.png"
+  }
+]

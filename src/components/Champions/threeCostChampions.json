@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "Ashe",
+    "traits1": "Draconic",
+    "traits2": "Ranger",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ashe.png"
+  },
+  {
+    "id": 2,
+    "title": "Katarina",
+    "traits1": "Forgotten",
+    "traits2": "Assassin",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/katarina.png"
+  },
+  {
+    "id": 3,
+    "title": "Lee Sin",
+    "traits1": "Nightbringer",
+    "traits2": "Skirmisher",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/leesin.png"
+  },
+  {
+    "id": 4,
+    "title": "Lulu",
+    "traits1": "Hellion",
+    "traits2": "Mystic",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/lulu.png"
+  },
+  {
+    "id": 5,
+    "title": "Lux",
+    "traits1": "Redeemed",
+    "traits2": "Mystic",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/lux.png"
+  },
+  {
+    "id": 6,
+    "title": "Morgana",
+    "traits1": "Nightbringer",
+    "traits2": "Coven",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/morgana.png"
+  },
+  {
+    "id": 7,
+    "title": "Nidalee",
+    "traits1": "Dawnbringer",
+    "traits2": "Skirmisher",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/nidalee.png"
+  },
+  {
+    "id": 8,
+    "title": "Nocturne",
+    "traits1": "Revenant",
+    "traits2": "Assassin",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/nocturne.png"
+  },
+  {
+    "id": 9,
+    "title": "Nunu",
+    "traits1": "Abomination",
+    "traits2": "Brawler",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/nunu.png"
+  },
+  {
+    "id": 10,
+    "title": "Pantheon",
+    "traits1": "Dragonslayer",
+    "traits2": "Skirmisher",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/pantheon.png"
+  },
+  {
+    "id": 11,
+    "title": "Riven",
+    "traits1": "Dawnbringer",
+    "traits2": "Legionnaire",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/riven.png"
+  },
+  {
+    "id": 12,
+    "title": "Yasuo",
+    "traits1": "Nightbringer",
+    "traits2": "Legionnaire",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/yasuo.png"
+  },
+  {
+    "id": 13,
+    "title": "Zyra",
+    "traits1": "Draconic",
+    "traits2": "Spellweaver",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/zyra.png"
+  }
+]

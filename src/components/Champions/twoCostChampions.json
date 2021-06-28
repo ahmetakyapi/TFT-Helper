@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "Brand",
+    "traits1": "Abomination",
+    "traits2": "Spellweaver",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/brand.png"
+  },
+  {
+    "id": 2,
+    "title": "Hecarim",
+    "traits1": "Forgotten",
+    "traits2": "Cavalier",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/hecarim.png"
+  },
+  {
+    "id": 3,
+    "title": "Kennen",
+    "traits1": "Hellion",
+    "traits2": "Skirmisher",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/kennen.png"
+  },
+  {
+    "id": 4,
+    "title": "Leblanc",
+    "traits1": "Coven",
+    "traits2": "Assassin",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/leblanc.png"
+  },
+  {
+    "id": 5,
+    "title": "Nautilus",
+    "traits1": "Ironclad",
+    "traits2": "Knight",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/nautilus.png"
+  },
+  {
+    "id": 6,
+    "title": "Sejuani",
+    "traits1": "Nightbringer",
+    "traits2": "Cavalier",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/sejuani.png"
+  },
+  {
+    "id": 7,
+    "title": "Sett",
+    "traits1": "Draconic",
+    "traits2": "Brawler",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/sett.png"
+  },
+  {
+    "id": 8,
+    "title": "Soraka",
+    "traits1": "Dawnbringer",
+    "traits2": "Renewer",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/soraka.png"
+  },
+  {
+    "id": 9,
+    "title": "Syndra",
+    "traits1": "Redeemed",
+    "traits2": "Invoker",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/syndra.png"
+  },
+  {
+    "id": 10,
+    "title": "Thresh",
+    "traits1": "Forgotten",
+    "traits2": "Knight",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/thresh.png"
+  },
+  {
+    "id": 11,
+    "title": "Trundle",
+    "traits1": "Dragonslayer",
+    "traits2": "Skirmisher",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/trundle.png"
+  },
+  {
+    "id": 12,
+    "title": "Varus",
+    "traits1": "Redeemed",
+    "traits2": "Ranger",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/varus.png"
+  },
+  {
+    "id": 13,
+    "title": "Viktor",
+    "traits1": "Forgotten",
+    "traits2": "Spellweaver",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/viktor.png"
+  }
+]

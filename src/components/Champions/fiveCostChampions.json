@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Darius",
+    "traits1": "Nightbringer",
+    "traits2": "God-King",
+    "traits3": "Knight",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/darius.png"
+  },
+  {
+    "id": 2,
+    "title": "Garen",
+    "traits1": "Dawnbringer",
+    "traits2": "God-King",
+    "traits3": "Knight",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/garen.png"
+  },
+  {
+    "id": 3,
+    "title": "Heimerdinger",
+    "traits1": "Draconic",
+    "traits2": "Renewer",
+    "traits3": "Caretaker",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/heimerdinger.png"
+  },
+  {
+    "id": 4,
+    "title": "Kayle",
+    "traits1": "Redeemed",
+    "traits2": "Verdant",
+    "traits3": "Legionnaire",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/kayle.png"
+  },
+  {
+    "id": 5,
+    "title": "Kindred",
+    "traits1": "Eternal",
+    "traits2": "Mystic",
+    "traits3": "Ranger",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/kindred.png"
+  },
+  {
+    "id": 6,
+    "title": "Teemo",
+    "traits1": "Hellion",
+    "traits2": "Cruel",
+    "traits3": "Invoker",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/teemo.png"
+  },
+  {
+  "id": 7,
+  "title": "Viego",
+  "traits1": "Forgotten",
+  "traits2": "Skirmisher",
+  "traits3": "Assassin",
+  "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/viego.png"
+},
+  {
+    "id": 8,
+    "title": "Volibear",
+    "traits1": "Revenant",
+    "traits2": "Brawler",
+    "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/volibear.png"
+  }
+]
