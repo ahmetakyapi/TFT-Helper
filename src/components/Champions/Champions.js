@@ -90,12 +90,20 @@ class Champions extends Component {
 const Container = styled.div `
   background: #13334C;
   height: 490vh;
+  @media (max-width: 768px) {
+    background: #13334C;
+    height: 2352vh;
+  }
 `
 
  const OneCostTitle = styled.div `
   padding-top: 6rem;
    text-align: center;
    color: darkgray;
+   @media (max-width: 768px) {
+     font-size: 0.8rem;
+     padding-right: 1.7rem;
+   }
  `
  const OneCostChamps = styled.div `
      display: flex;
@@ -124,12 +132,45 @@ const Container = styled.div `
      padding-right: 8rem;
      padding-bottom: 0.5rem;
    }
+   @media (max-width: 768px) {
+     display: flex;
+     flex-wrap: wrap;
+     padding-left: 8rem;
+     padding-top: 0.4rem;
+     div {
+       width: 18rem;
+     }
+     img {
+       width: 160px;
+       padding-bottom: 1rem;
+       padding-right: 2rem;
+     }
+     h2 {
+       text-align: center;
+       color: darkgoldenrod;
+       padding-right: 8rem;
+       padding-bottom: 1rem;
+       padding-top: 1.5rem;
+     }
+     p{
+       text-align: center;
+       color: khaki;
+       font-weight: 500;
+       padding-right: 8rem;
+       padding-bottom: 0.5rem;
+     }
+   }
  `
  const TwoCostTitle = styled.div `
    padding-top: 4rem;
    text-align: center;
    color: mediumseagreen;
+   @media (max-width: 768px) {
+     font-size: 0.8rem;
+     padding-right: 1.7rem;
+   }
  `
+
 const TwoCostChamps = styled.div `
      display: flex;
      flex-wrap: wrap;
@@ -157,11 +198,43 @@ const TwoCostChamps = styled.div `
      padding-right: 8rem;
      padding-bottom: 0.2rem;
    }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8rem;
+    padding-top: 0.4rem;
+    div {
+      width: 18rem;
+    }
+    img {
+      width: 160px;
+      padding-bottom: 1rem;
+      padding-right: 2rem;
+    }
+    h2 {
+      text-align: center;
+      color: darkgoldenrod;
+      padding-right: 8rem;
+      padding-bottom: 1rem;
+      padding-top: 1.5rem;
+    }
+    p{
+      text-align: center;
+      color: khaki;
+      font-weight: 500;
+      padding-right: 8rem;
+      padding-bottom: 0.5rem;
+    }
+  }
  `
 const ThreeCostTitle = styled.div `
    padding-top: 4rem;
    text-align: center;
    color: dodgerblue;
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+    padding-right: 1.7rem;
+  }
  `
 const ThreeCostChamps = styled.div `
      display: flex;
@@ -190,11 +263,43 @@ const ThreeCostChamps = styled.div `
      padding-right: 8rem;
      padding-bottom: 0.2rem;
    }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8rem;
+    padding-top: 0.4rem;
+    div {
+      width: 18rem;
+    }
+    img {
+      width: 160px;
+      padding-bottom: 1rem;
+      padding-right: 2rem;
+    }
+    h2 {
+      text-align: center;
+      color: darkgoldenrod;
+      padding-right: 8rem;
+      padding-bottom: 1rem;
+      padding-top: 1.5rem;
+    }
+    p{
+      text-align: center;
+      color: khaki;
+      font-weight: 500;
+      padding-right: 8rem;
+      padding-bottom: 0.5rem;
+    }
+  }
  `
 const FourCostTitle = styled.div `
    padding-top: 4rem;
    text-align: center;
    color: mediumpurple;
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+    padding-right: 1.7rem;
+  }
  `
 const FourCostChamps = styled.div `
      display: flex;
@@ -223,11 +328,43 @@ const FourCostChamps = styled.div `
      padding-right: 8rem;
      padding-bottom: 0.2rem;
    }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8rem;
+    padding-top: 0.4rem;
+    div {
+      width: 18rem;
+    }
+    img {
+      width: 160px;
+      padding-bottom: 1rem;
+      padding-right: 2rem;
+    }
+    h2 {
+      text-align: center;
+      color: darkgoldenrod;
+      padding-right: 8rem;
+      padding-bottom: 1rem;
+      padding-top: 1.5rem;
+    }
+    p{
+      text-align: center;
+      color: khaki;
+      font-weight: 500;
+      padding-right: 8rem;
+      padding-bottom: 0.5rem;
+    }
+  }
  `
 const FiveCostTitle = styled.div `
    padding-top: 2rem;
    text-align: center;
    color: goldenrod;
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+    padding-right: 1.7rem;
+  }
  `
 const FiveCostChamps = styled.div `
      display: flex;
@@ -256,5 +393,33 @@ const FiveCostChamps = styled.div `
      padding-right: 8rem;
      padding-bottom: 0.2rem;
    }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8rem;
+    padding-top: 0.4rem;
+    div {
+      width: 18rem;
+    }
+    img {
+      width: 160px;
+      padding-bottom: 1rem;
+      padding-right: 2rem;
+    }
+    h2 {
+      text-align: center;
+      color: darkgoldenrod;
+      padding-right: 8rem;
+      padding-bottom: 1rem;
+      padding-top: 1.5rem;
+    }
+    p{
+      text-align: center;
+      color: khaki;
+      font-weight: 500;
+      padding-right: 8rem;
+      padding-bottom: 0.5rem;
+    }
+  }
  `
 export default Champions

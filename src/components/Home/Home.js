@@ -34,7 +34,7 @@ const Container = styled.div `
     margin-top: 4.5rem;
     margin-left: 8rem;
   @media (max-width: 768px) {
-   margin-left: 4px;
+   margin-left: 1px;
   }
 `
 const Logo = styled.div `
