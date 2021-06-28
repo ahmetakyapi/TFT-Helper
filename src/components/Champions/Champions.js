@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Navbar from "../Navbar/Navbar";
 import styled from "styled-components";
-import ChampionsData from "../champions.json";
+import oneCostChampionsData from "./oneCostChampions.json";
 
 class Champions extends Component {
     render() {
@@ -9,11 +9,13 @@ class Champions extends Component {
             <div className="ui grid container">
                 <Navbar/>
                 <Champs>
-                    {ChampionsData.map((championDetail) => {
+                    {oneCostChampionsData.map((oneCostChampions) => {
                         return <div>
-                            <h2>{championDetail.title} </h2>
-                            <img src={championDetail.image} alt=""/>
-                            <p>{championDetail.costs}</p>
+                            <h2>{oneCostChampions.title} </h2>
+                            <img src={oneCostChampions.image} alt=""/>
+                            <p>{oneCostChampions.traits1}</p>
+                            <p>{oneCostChampions.traits2} </p>
+                            <p>{oneCostChampions.traits3}</p>
                         </div>
                     })}
                 </Champs>
@@ -23,15 +25,32 @@ class Champions extends Component {
 }
  const Champs = styled.div `
      display: flex;
-     flex-direction: row;
-     padding: 6rem;
-     
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     padding-left: 24rem;
+     padding-top: 8rem;
+   
    
    div {
-     width: 200px;
+     width: 24rem;
    }
    img {
-     max-width: 400px;
+     width: 240px;
+     padding-bottom: 1rem;
+   }
+   h2 {
+     text-align: center;
+     color: darkgoldenrod;
+     padding-right: 8rem;
+     padding-bottom: 1rem;
+     padding-top: 1rem;
+   }
+   p{
+     text-align: center;
+     color: khaki;
+     font-weight: 500;
+     padding-right: 8rem;
+     padding-bottom: 0.2rem;
    }
    
  `

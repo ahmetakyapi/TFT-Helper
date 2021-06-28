@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "title": "Aatrox",
+        "traits1": "Redeemed",
+        "traits2": "Legionnaire",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/aatrox.png"
+    },
+    {
+        "id": 2,
+        "title": "Gragas",
+        "traits1": "Dawnbringer",
+        "traits2": "Brawler",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/gragas.png"
+    },
+    {
+        "id": 3,
+        "title": "Kalista",
+        "traits1": "Abomination",
+        "traits2": "Legionnaire",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/kalista.png"
+    },
+    {
+        "id": 4,
+        "title": "Khazix",
+        "traits1": "Dawnbringer",
+        "traits2": "Assassin",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/khazix.png"
+    },
+    {
+        "id": 5,
+        "title": "Kled",
+        "traits1": "Hellion",
+        "traits2": "Cavalier",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/kled.png"
+    },
+    {
+        "id": 6,
+        "title": "Leona",
+        "traits1": "Redeemed",
+        "traits2": "Knight",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/leona.png"
+    },
+    {
+        "id": 7,
+        "title": "Lissandra",
+        "traits1": "Coven",
+        "traits2": "Renewer",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/lissandra.png"
+    },
+    {
+        "id": 8,
+        "title": "Poppy",
+        "traits1": "Hellion",
+        "traits2": "Knight",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/poppy.png"
+    },
+    {
+        "id": 9,
+        "title": "Udyr",
+        "traits1": "Draconic",
+        "traits2": "Skirmisher",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/udyr.png"
+    },
+    {
+        "id": 10,
+        "title": "Vayne",
+        "traits1": "Forgotten",
+        "traits2": "Ranger",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/vayne.png"
+    },
+    {
+        "id": 11,
+        "title": "Vladimir",
+        "traits1": "Nightbringer",
+        "traits2": "Renewer",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/vladimir.png"
+    },
+    {
+        "id": 12,
+        "title": "Warwick",
+        "traits1": "Forgotten",
+        "traits2": "Brawler",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/warwick.png"
+    },
+    {
+        "id": 13,
+        "title": "Ziggs",
+        "traits1": "Hellion",
+        "traits2": "Spellweaver",
+        "image": "https://cdn.lolchess.gg/images/tft/5.0/portraits/ziggs.png"
+    }
+]
