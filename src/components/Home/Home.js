@@ -34,7 +34,7 @@ const Container = styled.div `
     margin-top: 4.5rem;
     margin-left: 8rem;
   @media (max-width: 768px) {
-   margin-left: 1px;
+   margin-left: 0.5px;
   }
 `
 const Logo = styled.div `
@@ -65,7 +65,7 @@ const MainPage = styled.div `
   padding-top: 3rem;
   padding-right: 2px;
   display: flex;
-
+  
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
@@ -75,7 +75,7 @@ const MainPage = styled.div `
      img {
     max-width:360px;
     height: auto;
-    padding-left: 1rem;
+    padding-left: 2px;
   }
 
   }
@@ -139,7 +139,7 @@ const MainPage = styled.div `
        margin-bottom: 2rem;
      }
      span {
-      padding-left: 6rem;
+      padding-left: 7rem;
        img {
        width: 8rem;
        }
