@@ -137,8 +137,8 @@ const CompsInfo = styled.div`
       color: goldenrod;
       text-align: center;
       align-items: center;
-      padding-right: 12rem;
-      padding-left: 4rem;
+      padding-right: 8rem;
+      padding-left: 2rem;
     }
   }
 `

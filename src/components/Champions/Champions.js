@@ -92,7 +92,7 @@ const Container = styled.div `
   height: 490vh;
   @media (max-width: 768px) {
     background: #13334C;
-    height: 2385vh;
+    height: 2680vh;
     padding-right: 2rem;
   }
 `
@@ -103,7 +103,7 @@ const Container = styled.div `
    color: darkgray;
    @media (max-width: 768px) {
      font-size: 0.8rem;
-     padding-right: 1.7rem;
+     padding-left: 2.5rem;
    }
  `
  const OneCostChamps = styled.div `
@@ -131,18 +131,19 @@ const Container = styled.div `
      color: khaki;
      font-weight: 500;
      padding-right: 8rem;
-     padding-bottom: 0.5rem;
+     padding-bottom: 0.2rem;
    }
    @media (max-width: 768px) {
      display: flex;
      flex-wrap: wrap;
-     padding-left: 8rem;
-     padding-top: 0.4rem;
+     padding-left: 7rem;
+     padding-top: 0.3rem;
      div {
        width: 18rem;
      }
      img {
-       width: 160px;
+       width: 12rem;
+       height: auto;
        padding-bottom: 1rem;
        padding-right: 2rem;
      }
@@ -168,7 +169,7 @@ const Container = styled.div `
    color: mediumseagreen;
    @media (max-width: 768px) {
      font-size: 0.8rem;
-     padding-right: 1.7rem;
+     padding-left: 2.5rem;
    }
  `
 
@@ -202,20 +203,20 @@ const TwoCostChamps = styled.div `
   @media (max-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 8rem;
+    padding-left: 7rem;
     padding-top: 0.4rem;
     div {
       width: 18rem;
     }
     img {
-      width: 160px;
+      width: 12rem;
       padding-bottom: 1rem;
       padding-right: 2rem;
     }
     h2 {
       text-align: center;
       color: darkgoldenrod;
-      padding-right: 8rem;
+      padding-left: 2rem;
       padding-bottom: 1rem;
       padding-top: 1.5rem;
     }
@@ -223,7 +224,7 @@ const TwoCostChamps = styled.div `
       text-align: center;
       color: khaki;
       font-weight: 500;
-      padding-right: 8rem;
+      padding-left: 3rem;
       padding-bottom: 0.5rem;
     }
   }
@@ -234,7 +235,7 @@ const ThreeCostTitle = styled.div `
    color: dodgerblue;
   @media (max-width: 768px) {
     font-size: 0.8rem;
-    padding-right: 1.7rem;
+    padding-left: 2.5rem;
   }
  `
 const ThreeCostChamps = styled.div `
@@ -267,20 +268,20 @@ const ThreeCostChamps = styled.div `
   @media (max-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 8rem;
+    padding-left: 7rem;
     padding-top: 0.4rem;
     div {
       width: 18rem;
     }
     img {
-      width: 160px;
+      width: 12rem;
       padding-bottom: 1rem;
       padding-right: 2rem;
     }
     h2 {
       text-align: center;
       color: darkgoldenrod;
-      padding-right: 8rem;
+      padding-left: 2rem;
       padding-bottom: 1rem;
       padding-top: 1.5rem;
     }
@@ -288,7 +289,7 @@ const ThreeCostChamps = styled.div `
       text-align: center;
       color: khaki;
       font-weight: 500;
-      padding-right: 8rem;
+      padding-left: 3rem;
       padding-bottom: 0.5rem;
     }
   }
@@ -299,7 +300,7 @@ const FourCostTitle = styled.div `
    color: mediumpurple;
   @media (max-width: 768px) {
     font-size: 0.8rem;
-    padding-right: 1.7rem;
+    padding-left: 2.5rem;
   }
  `
 const FourCostChamps = styled.div `
@@ -332,20 +333,20 @@ const FourCostChamps = styled.div `
   @media (max-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 8rem;
+    padding-left: 7rem;
     padding-top: 0.4rem;
     div {
       width: 18rem;
     }
     img {
-      width: 160px;
+      width: 12rem;
       padding-bottom: 1rem;
       padding-right: 2rem;
     }
     h2 {
       text-align: center;
       color: darkgoldenrod;
-      padding-right: 8rem;
+      padding-left: 2rem;
       padding-bottom: 1rem;
       padding-top: 1.5rem;
     }
@@ -353,7 +354,7 @@ const FourCostChamps = styled.div `
       text-align: center;
       color: khaki;
       font-weight: 500;
-      padding-right: 8rem;
+      padding-left: 3rem;
       padding-bottom: 0.5rem;
     }
   }
@@ -364,7 +365,7 @@ const FiveCostTitle = styled.div `
    color: goldenrod;
   @media (max-width: 768px) {
     font-size: 0.8rem;
-    padding-right: 1.7rem;
+    padding-left: 2.5rem;
   }
  `
 const FiveCostChamps = styled.div `
@@ -397,20 +398,20 @@ const FiveCostChamps = styled.div `
   @media (max-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 8rem;
+    padding-left: 7rem;
     padding-top: 0.4rem;
     div {
       width: 18rem;
     }
     img {
-      width: 160px;
+      width: 12rem;
       padding-bottom: 1rem;
       padding-right: 2rem;
     }
     h2 {
       text-align: center;
       color: darkgoldenrod;
-      padding-right: 8rem;
+      padding-left: 2rem;
       padding-bottom: 1rem;
       padding-top: 1.5rem;
     }
@@ -418,7 +419,7 @@ const FiveCostChamps = styled.div `
       text-align: center;
       color: khaki;
       font-weight: 500;
-      padding-right: 8rem;
+      padding-right: 5rem;
       padding-bottom: 0.5rem;
     }
   }
