@@ -92,7 +92,7 @@ const Container = styled.div `
   height: 490vh;
   @media (max-width: 768px) {
     background: #13334C;
-    height: 2680vh;
+    height: 2750vh;
     padding-right: 2rem;
   }
 `
