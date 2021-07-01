@@ -71,10 +71,10 @@ const Buttons = styled.div`
     display: flex;
     flex-direction: row;
     padding-top: 1rem;
-    padding-left: 1.8rem;
+    padding-left: 2rem;
     img { 
-      width: 2.2rem;
-      height: 3.8rem;
+      width: 1.9rem;
+      height: 2.5rem;
     }
   }
 `
@@ -93,7 +93,7 @@ const ButtonsIndex = styled.div `
     padding-left: 0.1rem;
     width: 40rem;
     img {
-      width: 24rem;
+      width: 23rem;
       height: auto;
     }
     p {
