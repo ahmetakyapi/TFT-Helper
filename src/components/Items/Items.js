@@ -6,7 +6,6 @@ import Navbar from "../Navbar/Navbar";
 
 export default function Items() {
     const [active, setActive] = useState("FirstCard");
-
     return (
         <Container>
                 <Navbar/>
@@ -71,9 +70,9 @@ const Buttons = styled.div`
     display: flex;
     flex-direction: row;
     padding-top: 1rem;
-    padding-left: 1.5rem;
+    padding-left: 1.3rem;
     img { 
-      width: 1.7rem;
+      width: 1.5rem;
       height: 2.3rem;
     }
   }
