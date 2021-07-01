@@ -71,9 +71,9 @@ const Buttons = styled.div`
     display: flex;
     flex-direction: row;
     padding-top: 1rem;
-    padding-left: 1.8rem;
+    padding-left: 1.5rem;
     img { 
-      width: 1.8rem;
+      width: 1.7rem;
       height: 2.3rem;
     }
   }
