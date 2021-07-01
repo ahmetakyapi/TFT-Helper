@@ -47,6 +47,15 @@ const Container = styled.div `
   }
   @media (max-width: 768px) {
     margin-left: 0.5px;
+    h1 {
+      text-align: center;
+      color:burlywood;
+      padding-top: 1rem;
+      font-weight: 700;
+      font-size: 1.6rem;
+      padding-bottom: 1rem;
+      padding-right: 3rem;
+    }
   }
 `
 const Buttons = styled.div`
@@ -58,12 +67,37 @@ const Buttons = styled.div`
     width: 4.5rem;
     height: auto;
   }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-left: 1.8rem;
+    img { 
+      width: 2.2rem;
+      height: 3.8rem;
+    }
+  }
 `
 const ButtonsIndex = styled.div `
-  display: inline-grid;
+  display: inline-flex;
+  flex-direction: column;
   padding-left: 11rem;
   img {
-    width: 46rem;
+    width: 48rem;
     height: auto;
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-left: 0.1rem;
+    width: 40rem;
+    img {
+      width: 24rem;
+      height: auto;
+    }
+    p {
+      padding-right: 20rem;
+    }
   }
 `

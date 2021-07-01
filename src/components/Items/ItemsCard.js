@@ -16,6 +16,9 @@ const Card = ({ data, cardIndex }) => {
 };
 const Components = styled.div `
   padding-left: 30rem;
+  @media (max-width: 768px) {
+    padding-left: 0.6rem;
+  }
 `
 const Content = styled.div `
     p{
@@ -26,5 +29,14 @@ const Content = styled.div `
       font-size: 2.2rem;
       font-weight: 600;
     }
+  @media (max-width: 768px) {
+    p{
+      color: blanchedalmond;
+      text-align: center;
+      padding-left: 5rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
 `
 export default Card;
