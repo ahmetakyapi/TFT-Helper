@@ -1,14 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "../Navbar/Navbar";
-import MetaComps1 from "../../assets/MetaComps1.png"
-import MetaComps2 from "../../assets/MetaComps2.png"
-import MetaComps3 from "../../assets/MetaComps3.png"
-import MetaComps4 from "../../assets/MetaComps4.png"
-import MetaComps5 from "../../assets/MetaComps5.png"
-import MetaComps6 from "../../assets/MetaComps6.png"
-import MetaComps7 from "../../assets/MetaComps7.png"
-import MetaComps8 from "../../assets/MetaComps8.png"
+import MetaComps1 from "../../assets/MetaComps/MetaComps1.png"
+import MetaComps2 from "../../assets/MetaComps/MetaComps2.png"
+import MetaComps3 from "../../assets/MetaComps/MetaComps3.png"
+import MetaComps4 from "../../assets/MetaComps/MetaComps4.png"
+import MetaComps5 from "../../assets/MetaComps/MetaComps5.png"
+import MetaComps6 from "../../assets/MetaComps/MetaComps6.png"
+import MetaComps7 from "../../assets/MetaComps/MetaComps7.png"
+import MetaComps8 from "../../assets/MetaComps/MetaComps8.png"
 
 
 function MetaComps() {

@@ -27,7 +27,7 @@ class App extends Component {
 }
 const Container = styled.div `
      background: #13334C;
-     height: 100vh;
+     height: 105vh;
   @media (max-width: 768px) {
     background: #13334C;
     height: 124vh;

@@ -43,12 +43,14 @@ const Logo = styled.div `
     width: 26vh;
     padding-top: 2rem;
     padding-left: 62rem;
+    padding-bottom: 3.5rem;
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     width: 380px;
     padding-top: 1rem;
     padding-left: 3rem;
+    padding-bottom: 1rem;
     img {
       max-width: 140px;
       height: auto;
@@ -109,7 +111,7 @@ const MainPage = styled.div `
     font-size: 24px;
   }
    span {
-     padding-left: 28rem;
+     padding-left: 30rem;
     img {
       width: 14rem;
       height: auto;
