@@ -92,8 +92,8 @@ const Container = styled.div `
   height: 490vh;
   @media (max-width: 768px) {
     background: #13334C;
-    height: 2750vh;
-    padding-right: 2rem;
+    min-height: 2750vh;
+    padding-right: 8rem;
   }
 `
 
@@ -169,7 +169,7 @@ const Container = styled.div `
    color: mediumseagreen;
    @media (max-width: 768px) {
      font-size: 0.8rem;
-     padding-left: 2.5rem;
+     padding-left: 2rem;
    }
  `
 

@@ -52,32 +52,32 @@ const Logo = styled.div `
     padding-left: 3rem;
     padding-bottom: 1rem;
     img {
-      max-width: 140px;
+      width: 45%;
       height: auto;
-      padding-left: 5rem;
+      padding-left: 6rem;
     }
   }
 `
 
 const MainPage = styled.div `
   img {
-  height:60vh;
-  width: 180vh;
+  width: 50%;
+  height: 100%;
   }
   padding-top: 3rem;
-  padding-right: 2px;
+  padding-right: 3px;
   display: flex;
   
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    width: 380px;
+    width: 100%;
     padding-top: 2rem;
     padding-left: 0.6rem;
      img {
-    max-width:360px;
+    width:90%;
     height: auto;
-    padding-left: 2px;
+    padding-left: 0.5rem;
   }
 
   }
@@ -120,7 +120,7 @@ const MainPage = styled.div `
    @media (max-width: 768px) {
      h1 {
        color: antiquewhite;
-       font-size: 28px;
+       font-size: 24px;
        text-align: center;
        padding-left: 1rem;
        padding-top: 2rem;
@@ -133,17 +133,18 @@ const MainPage = styled.div `
        margin-top: 2rem;
      }
      h3 {
+       width: 20rem;
        color: whitesmoke;
-       font-size: 18px;
+       font-size: 16px;
        text-align: center;
-       margin-left: 1rem;
+       margin-left: 4rem;
        margin-top: 3rem;
        margin-bottom: 2rem;
      }
      span {
-      padding-left: 7rem;
+      padding-left: 9rem;
        img {
-       width: 8rem;
+       width: 30%;
        }
      }
    }

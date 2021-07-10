@@ -30,8 +30,8 @@ const Container = styled.div `
      height: 105vh;
   @media (max-width: 768px) {
     background: #13334C;
-    height: 124vh;
-    width: 56vh;
+    min-height: 130vh;
+    min-width: 60vh;
   }
 `
 export default App
